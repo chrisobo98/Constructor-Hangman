@@ -1,6 +1,9 @@
 # IMDB Top Movies CLI Hangman
 Javascript game using constructor functions MySQL Amazon-like storefront using MySql workbench and CLI
 
+ ![Screenshot](guess.png)
+
+
 ### Prerequisites
 ```
 npm install inquirer
@@ -14,6 +17,9 @@ Download the latest version of node
 - Each letter object displays an underscore
 - Accepts a user's guess otherwise returns it false
 
+ ![Screenshot](accept.png)
+
+
 ## Word.js
 
 - Contains word specific logic and data.
@@ -24,6 +30,7 @@ Download the latest version of node
 
 - Exports IMDBs Top 50 Movies
 
+ ![Screenshot](movies.png)
 
 ## Built With
 
