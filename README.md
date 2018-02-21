@@ -11,6 +11,9 @@ npm install inquirer
 ```
 Download the latest version of node
 
+*Navigate to folder that has the index.js file in gitbash and node index.js to start the game*
+
+
 ## Letter.js
 
 - Used for each letter in the current word
@@ -31,6 +34,28 @@ Download the latest version of node
 - Exports IMDBs Top 50 Movies
 
  ![Screenshot](movies.png)
+ 
+ ## Game.js
+ - Requires all the files
+ 
+```
+var inquirer = require("inquirer");
+var chalk = require("chalk");
+var Word = require("./Word");
+var words = require("./words");
+```
+
+- keeps score and controls the flow of the overall game
+- Includes inquirer prompts for choices and console.logs to make the game feel more personal
+
+Ex. 
+
+```
+console.log(
+          "No guesses left! Word was: \"" + self.currentWord.getSolution() + "\"\n"
+        );
+```
+
 
 ## Built With
 
